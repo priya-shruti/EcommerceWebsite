@@ -20,7 +20,6 @@
 .home {
     color: black;
     float: right;
-    display: flexbox;
 }
 
 html {
@@ -66,24 +65,91 @@ body {
     width: 6rem;
 }
 
-.heading{
-    /* margin-top: 250px; */
-    margin-right: 400px;
-    /* margin-left: 90px; */
+.heading {
+    margin-top: 90px;
+    /* margin-right: 400px; */
+    margin-left: 320px;
 }
-.image{
+
+.image {
     margin-top: 100px;
     display: flex;
 }
 
+.btn {
+    background-color: rgb(168, 80, 80);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(163, 111, 111);
+    color: white;
+}
+
+.product {
+    margin-left: 50px;
+}
+
+.jeans {
+    height: 250px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.shirt {
+    height: 250px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.feature {
+    margin-left: 475px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+hr {
+    background-color: orange;
+    width: 15%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width:991px) {
     html {
-        font-size: 55%;
+        font-size: 75%;
+        /* overflow-x: hidden; */
     }
-    .heading{
-        margin-right: 400px;
+
+    .heading {
+        margin-left: 1px;
     }
-    .inner_heading{
-        margin-right: 400px;
+
+    .inner_heading {
+        margin-left: 90px;
+    }
+
+    .btn {
+        margin-left: 90px;
+    }
+
+    .jeans {
+        margin-left: 100px;
+    }
+
+    .shirt {
+        margin-left: 100px;
+    }
+
+    /* .row_product {
+        flex-direction: column;
+    } */
+
+    .feature {
+        margin-left: 150px;
     }
 }
