@@ -61,8 +61,8 @@ body {
 }
 
 .logo img {
-    height: 6rem;
-    width: 6rem;
+    height: 36px;
+    width: 96px;
 }
 
 .heading {
@@ -113,20 +113,191 @@ body {
     font-size: 20px;
 }
 
-hr {
+.line {
     background-color: orange;
     width: 15%;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
 }
-.product{
+
+.product {
     align-self: center;
 }
-.product1{
+
+.product1 {
     height: 190px;
     width: 190px;
     margin-left: 80px;
+}
+
+.red {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.black {
+    margin-left: 70px;
+    margin-top: 8px;
+}
+
+.gray {
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+.blue {
+    margin-left: 105px;
+    margin-top: 8px;
+}
+
+.latest {
+    margin-left: 475px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.line2 {
+    background-color: orange;
+    width: 15%;
+    height: 20%;
+    margin-top: 2px;
+    margin-left: 460px;
+}
+
+.pink {
+    background-color: var(--main-color);
+}
+
+.watch img {
+    height: 280px;
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.text {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.buy {
+    background-color: rgb(168, 80, 80);
+    color: white;
+    border-radius: 10px;
+    margin-left: 145px;
+    height: 40px;
+    width: 80px;
+}
+
+.buy:hover {
+    background-color: rgb(163, 111, 111);
+    color: white;
+}
+
+.box1 {
+    width: 300px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.boxes {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 25px;
+}
+
+.name {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.brands {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.brand img {
+    cursor: pointer;
+    margin-left: 90px;
+    height: 80px;
+    width: 80px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer_text {
+    margin-top: 30px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.store {
+    margin-left: 195px;
+    height: 50px;
+    width: 150px;
+}
+
+.store1 {
+    height: 50px;
+    width: 150px;
+}
+
+.logo2 {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 120px;
+    height: 50px;
+}
+
+.footer_text2 {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.footer_text3 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.footer_text4 {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.footer_text5 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 33px;
+    margin-left: 45px;
+}
+
+.line3{
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.copyright{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 570px;
+    font-size: 15px;
 }
 
 @media (max-width:991px) {
@@ -158,8 +329,58 @@ hr {
     .feature {
         margin-left: 150px;
     }
-    .product1{
-        margin-left: 25px;
+
+    .product1 {
+        margin-left: 45px;
         margin-top: 15px;
+    }
+
+    .latest {
+        margin-left: 180px;
+    }
+
+    .line2 {
+        margin-left: 200px;
+    }
+
+    .text {
+        margin-left: 30px;
+    }
+
+    .brands {
+        margin-left: 15px;
+    }
+
+    .footer_text {
+        margin-left: 80px;
+    }
+
+    .store {
+        margin-left: 80px;
+    }
+
+    .logo2 {
+        margin-left: 170px;
+    }
+
+    .footer_text2 {
+        margin-left: 100px;
+    }
+
+    .footer_text3{
+        margin-left: 100px;
+    }
+
+    .footer_text4{
+        margin-left: 100px;
+    }
+
+    .footer_text5{
+        margin-left: 100px;
+    }
+
+    .copyright{
+        margin-left: 180px;
+        font-size: 12px;
     }
 }
