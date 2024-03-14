@@ -121,10 +121,6 @@ body {
     margin-right: auto;
 }
 
-.product {
-    align-self: center;
-}
-
 .product1 {
     height: 190px;
     width: 190px;
@@ -288,12 +284,12 @@ body {
     margin-left: 45px;
 }
 
-.line3{
+.line3 {
     background-color: gray;
     margin-top: 20px;
 }
 
-.copyright{
+.copyright {
     color: #fff;
     margin-top: 20px;
     margin-left: 570px;
@@ -303,11 +299,11 @@ body {
 @media (max-width:768px) {
     html {
         font-size: 75%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .heading {
-        margin-left: 1px;
+        margin-left:1px;
     }
 
     .inner_heading {
@@ -331,8 +327,24 @@ body {
     }
 
     .product1 {
-        margin-left: 45px;
+        margin-left: 170px;
         margin-top: 15px;
+    }
+
+    .red {
+        margin-left: 200px;
+    }
+
+    .black {
+        margin-left: 200px;
+    }
+
+    .gray {
+        margin-left: 200px;
+    }
+
+    .blue {
+        margin-left: 200px;
     }
 
     .latest {
@@ -367,27 +379,35 @@ body {
         margin-left: 100px;
     }
 
-    .footer_text3{
+    .footer_text3 {
         margin-left: 100px;
     }
 
-    .footer_text4{
+    .footer_text4 {
         margin-left: 100px;
     }
 
-    .footer_text5{
+    .footer_text5 {
         margin-left: 100px;
     }
 
-    .copyright{
+    .copyright {
         margin-left: 180px;
         font-size: 12px;
     }
+
+    .pink {
+        background-color: #fff;
+    }
+
+    /* .footer{
+        background-color: #fff;
+    } */
 }
 
 @media (max-width:450px) {
     html {
-        font-size: 75%;
+        font-size: 80%;
         overflow-x: hidden;
     }
 }
